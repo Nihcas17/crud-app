@@ -35,10 +35,3 @@ npm start...
 
 The frontend will be running at: http://localhost:3000
 
-API Endpoints:
-Method	Endpoint	Description
-GET	/api/items	Get all items
-POST	/api/items	Create a new item
-PUT	/api/items/:id	Update an existing item
-DELETE	/api/items/:id	Delete an item
-
