@@ -1,0 +1,168 @@
+/* Reset some defaults */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fafb;
+    color: #333;
+}
+
+/* App container */
+.App {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+    font-weight: 700;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input {
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    transition: border 0.2s;
+}
+
+form input:focus {
+    border-color: #4f46e5;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+form button {
+    padding: 14px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4f46e5, #6366f1);
+    color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+form button:hover {
+    background: linear-gradient(to right, #4338ca, #4f46e5);
+}
+
+/* List styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+li {
+    background: #f3f4f6;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+li strong {
+    font-size: 18px;
+    color: #111827;
+}
+
+li span {
+    display: block;
+    color: #6b7280;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+li button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 10px;
+    transition: background 0.3s;
+}
+
+li button.edit-btn {
+    background-color: #3b82f6;
+    color: white;
+}
+
+li button.edit-btn:hover {
+    background-color: #2563eb;
+}
+
+li button.delete-btn {
+    background-color: #ef4444;
+    color: white;
+}
+
+li button.delete-btn:hover {
+    background-color: #dc2626;
+}
+
+/* General button reset */
+button {
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Edit Button */
+.edit-btn {
+    background: linear-gradient(to right, #3b82f6, #60a5fa);
+    color: white;
+    box-shadow: 0 4px 6px rgba(59, 130, 246, 0.2);
+}
+
+.edit-btn:hover {
+    background: linear-gradient(to right, #2563eb, #3b82f6);
+    box-shadow: 0 6px 12px rgba(59, 130, 246, 0.3);
+    transform: scale(1.05);
+}
+
+/* Delete Button */
+.delete-btn {
+    background: linear-gradient(to right, #ef4444, #f87171);
+    color: white;
+    box-shadow: 0 4px 6px rgba(239, 68, 68, 0.2);
+}
+
+.delete-btn:hover {
+    background: linear-gradient(to right, #dc2626, #ef4444);
+    box-shadow: 0 6px 12px rgba(239, 68, 68, 0.3);
+    transform: scale(1.05);
+}
+
+
