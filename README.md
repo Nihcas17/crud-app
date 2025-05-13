@@ -7,7 +7,7 @@ Frontend: React.js + axios...
 
 This project demonstrates basic Create, Read, Update, Delete (CRUD) operations using a REST API and a React-based UI.
 
-🚀 Getting Started
+Getting Started
 Backend Setup (API)
 Navigate to the backend folder and install dependencies:
 
